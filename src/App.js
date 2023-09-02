@@ -9,7 +9,7 @@ function App() {
   let toggle = false;
 
   function onLoad(splineApp) {
-    // save the app in a ref for later use
+    // save the app in a ref for later use 
     spline.current = splineApp;
     spline.current.setZoom(1);
   }
